@@ -5,7 +5,7 @@
             "name": "Recover wallet-20121216-n.dat",
             "type": "python",
             "request": "launch",
-            "program": "/path/to/python2", // Replace with your Python 2 interpreter path
+            "program": "/usr/bin/python2",
             "args": [
                 "--recover",
                 "--recov_device=test/wallet-20121216-n.dat",
@@ -17,7 +17,7 @@
             "name": "Recover wallet-20140324-n.dat",
             "type": "python",
             "request": "launch",
-            "program": "/path/to/python2", // Replace with your Python 2 interpreter path
+            "program": "/usr/bin/python2",
             "args": [
                 "--recover",
                 "--recov_device=test/wallet-20140324-n.dat",
