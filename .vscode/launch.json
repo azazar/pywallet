@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Recover wallet-20121216-n.dat",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pywallet.py",
+            "args": [
+                "--recover",
+                "--recov_device=wallet-20121216-n.dat",
+                "--recov_size=368640",
+                "--recov_outputdir=wallet-20121216-n.dat-rec"
+            ]
+        },
+        {
+            "name": "Recover wallet-20140324-n.dat",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pywallet.py",
+            "args": [
+                "--recover",
+                "--recov_device=wallet-20140324-n.dat",
+                "--recov_size=2277376",
+                "--recov_outputdir=wallet-20140324-n.dat-rec"
+            ]
+        }
+    ]
+}
