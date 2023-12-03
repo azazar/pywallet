@@ -5,7 +5,8 @@
             "name": "Recover wallet-20121216-n.dat",
             "type": "python",
             "request": "launch",
-            "program": "/usr/bin/python2",
+            "python": "/usr/bin/python2",
+            "program": "pywallet.py",
             "args": [
                 "--recover",
                 "--recov_device=test/wallet-20121216-n.dat",
@@ -17,7 +18,8 @@
             "name": "Recover wallet-20140324-n.dat",
             "type": "python",
             "request": "launch",
-            "program": "/usr/bin/python2",
+            "python": "/usr/bin/python2",
+            "program": "pywallet.py",
             "args": [
                 "--recover",
                 "--recov_device=test/wallet-20140324-n.dat",
